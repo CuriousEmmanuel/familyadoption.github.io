@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(248, 2, 2, 0.966)10%,rgba(233, 108, 108, 0.5)50%), url(download.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 98vh;
+    
+    
+
+
+}
+.navbar{
+    width:1000px;
+    height:75px;
+    margin: auto;
+    
+    
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 50px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+ul li{
+    list-style:none;
+    margin-left: 92px;
+    margin-top: 27px;
+    font-size: 16px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(190, 48, 155);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+ul li a:hover{
+    color: #ff7208;
+}
+.search{
+    width: 280px;
+    float:left;
+    margin-left: 250px;
+
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 100px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid #ff7208;
+    margin-top: 5px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 6px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.btn{
+    width: 100px;
+    height: 34px;
+    background: #ff7208;
+    border: 2px solid #ff7208;
+    margin-top: 5px;
+    color: #fff;
+    font-size: 17px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+
+}
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 35px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size:50px;
+    padding-left: 20px;
+    margin-top: 1%;
+    letter-spacing: 2px;
+    
+}
+
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7208;
+    border: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: 3s ease;
+
+}
+.cn:hover{
+    background-color: #fff;
+}
+.content span{
+    color: #ff7208;
+    font-size: 65px;
+}
+.imgtag{
+    width: 100px;
+    height: 100px;
+}
+.imgtag img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid violet;
+    object-fit: cover;
+}
+h1{
+    color:orangered;
+}
